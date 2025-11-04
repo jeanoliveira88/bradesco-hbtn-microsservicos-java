@@ -20,7 +20,7 @@ public class MessageResource {
         if (user.isEmpty() || password.isEmpty()) {
             return "USUÁRIO E SENHA NÃO INFORMADOS";
         } else if (user.length() > 15 || password.length() > 15) {
-            return "USUÁRIO OU SENHA INVÁLIDOS";
+            return "USUÁRIO E SENHA INVÁLIDOS";
 
         }
         return "LOGIN EFETUADO COM SUCESSO !!!";
