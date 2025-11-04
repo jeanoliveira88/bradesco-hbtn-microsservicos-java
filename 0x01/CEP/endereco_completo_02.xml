@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmlcep>
+  <cep>13086-902</cep>
+  <logradouro>Rua Doutor Ricardo Benetton Martins</logradouro>
+  <complemento>s/n</complemento>
+  <unidade>Fundação CPqD - Centro de Pesquisa e Desenvolvimento em Telecomunicações</unidade>
+  <bairro>Polo II de Alta Tecnologia (Campinas)</bairro>
+  <localidade>Campinas</localidade>
+  <uf>SP</uf>
+  <estado>São Paulo</estado>
+  <regiao>Sudeste</regiao>
+  <ibge>3509502</ibge>
+  <gia>2446</gia>
+  <ddd>19</ddd>
+  <siafi>6291</siafi>
+</xmlcep>
