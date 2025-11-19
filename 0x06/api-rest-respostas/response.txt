@@ -1,0 +1,15 @@
+You have entered valid ID
+{
+    "status": 400,
+    "message": "You have entered invalid ID null invalid."
+}
+{
+    "status": 400,
+    "message": "You have entered CPF null invalid."
+}
+{
+    "status": 400,
+    "message": "You have entered CPF null invalid."
+}
+You have entered valid CPF
+You have entered valid USERNAME
