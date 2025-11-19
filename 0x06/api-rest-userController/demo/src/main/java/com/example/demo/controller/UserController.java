@@ -3,6 +3,7 @@ package com.example.demo.controller;
 import com.example.demo.exception.CPFException;
 import com.example.demo.exception.UserIdException;
 import com.example.demo.exception.UserNameException;
+import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,7 +20,7 @@ public class UserController {
         if (id > 0 && id < 100) {
             msg = "You have entered valid ID";
         } else {
-            throw new UserIdException();
+            throw new UserIdException(String.valueOf(id));
         }
         return msg;
     }
@@ -31,7 +32,7 @@ public class UserController {
         if (userName.length() > 3 && userName.length() < 15) {
             msg = "You have entered valid USERNAME";
         } else {
-            throw new UserNameException();
+            throw new UserNameException(userName);
         }
         return msg;
     }
@@ -43,7 +44,7 @@ public class UserController {
         if (cpf.length() > 3 && cpf.length() < 15) {
             msg = "You have entered valid CPF";
         } else {
-            throw new CPFException();
+            throw new CPFException(cpf);
         }
         return msg;
 
