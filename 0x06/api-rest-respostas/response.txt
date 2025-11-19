@@ -1,7 +1,7 @@
 You have entered valid ID
 {
     "status": 400,
-    "message": "You have entered invalid ID 0 invalid."
+    "message": "You have entered ID 0 invalid."
 }
 {
     "status": 400,
